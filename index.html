@@ -4,9 +4,14 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Noticias de Informática</title>
+        <title>Club de Fans de Star Wars</title>
+
         <!--FONT AWESOME-->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+        <!-- FONT OSWALD -->
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&family=Roboto:wght@300;400;700;900&display=swap" rel="stylesheet">
+
         <!--CUSTOME CSS
             EL FONDO https://heropatterns.com/ "Death Star"
         -->
@@ -16,33 +21,46 @@
 
 
     <body>
+        <header class="cabecera">
+            <h1>Club de Fans de Star Wars</h1>
+        </header>
         <!-- ESTO ES EL MENU DE NAVEGACION-->
-        <div class="container">
+
+        <!-- creamos una clase container para centrar todo el contenido del body-->
+        <div class="container"> 
+
+             <!-- creamos la clase nav-main para poder estilizarlo-->
             <nav class="nav-main">
-                <img src="img/ordenador1.jpg" alt="logo" class="nav-brand">
+
+                <!-- Icono que representa nuestra pagina-->
+                <img src="img/icon_dark2.png" alt="Star War logo" class="nav-brand">
+
+                <!-- Lista de navegacion-->
                 <ul class="nav-menu">
                     <li>
                         <a href="#">Home</a>
                     </li>
                     <li>
-                        <a href="#">Quienes somos</a>
-                    </li>
-                    <li>
-                        <a href="#">Área de actuación</a>
+                        <a href="#">Nosotros</a>
                     </li>
                     <li>
                         <a href="#">Noticias</a>
                     </li>
                     <li>
-                        <a href="#">Publicaciones</a>
+                        <a href="#">Peliculas</a>
                     </li>
                     <li>
-                        <a href="#">Localización</a>
+                        <a href="#">Merchandising</a>
+                    </li>
+                    <li>
+                        <a href="#">Personajes</a>
                     </li>
                     <li>
                         <a href="#">Contacto</a>
                     </li>
-                </ul>                    
+                </ul>
+
+                <!--lista a la derecha para poner buscador-->                    
                 <ul class="nav-menu-right">
                     <li>
                         <a href="#">
@@ -52,31 +70,208 @@
                     </li>
                 </ul>
 
-
             </nav>
-        </div>
-   
-     
-        <section>
-            <header>
 
+            <!--SHOWCASE-->
+
+            <hr> <!-- linea separadora-->
+        
+            <header class="showcase">
+                <h2>! Vive la experiencia ¡</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro sunt, temporibus quod possimus veritatis quis alias dolor reprehenderit voluptates quos.</p>
+
+                <a href="#" class="btn">Read more <i class="fas fa-angle-double-right"></i> </a>
             </header>
-            <article>
 
-            </article>
-            <footer>
+            <!-- Noticias-->
+            <div class="news_cards">
+                <div>
+                    <img src="img/news1.jfif" alt="News 1">
 
-            </footer>
-        </section>
+                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, eos.</h3>
 
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta adipisci nam molestiae voluptates impedit earum nihil maxime, reprehenderit inventore vel dolores debitis? Maiores ad rerum vero laboriosam est excepturi blanditiis.</p>
+
+                    <a href="#" >Learn more <i class="fas fa-angle-double-right"></i></a>
+
+                </div>
+
+                                <div>
+                    <img src="img/news2.png" alt="News 2">
+
+                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, eos.</h3>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias corporis, dolorem corrupti autem possimus natus doloribus odio tempora error. Totam asperiores, animi aliquid non atque unde magnam! Facere, ullam exercitationem.</p>
+
+                    <a href="#" >Learn more <i class="fas fa-angle-double-right"></i></a>
+
+                </div>
+
+                                <div>
+                    <img src="img/news3.png" alt="News 3">
+
+                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, eos.</h3>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, iste quae aut nisi perspiciatis nobis id. Expedita, dolor architecto? Quibusdam ea eum cumque vel labore doloremque nihil accusamus voluptate dicta?</p>
+
+                    <a href="#" >Learn more <i class="fas fa-angle-double-right"></i></a>
+
+                </div>
+
+                                <div>
+                    <img src="img/news4.webp" alt="News 4">
+
+                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, eos.</h3>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium repellat qui facere, quae dolor saepe modi deleniti quaerat eum? Sunt quaerat cum inventore ipsa quidem placeat minima mollitia ducimus ad.</p>
+
+                    <a href="#" >Learn more <i class="fas fa-angle-double-right"></i></a>
+
+                </div>
+
+            </div>
+
+            <!-- BANNER-->
+            <section class="cards-banner-one">
+                <div class="content">
+                    <h2>Lorem, ipsum dolor.</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi praesentium tenetur voluptatibus excepturi enim non earum placeat incidunt dolor sed?</p>
+                    <a href="#" class="btn">Read More <i class="fas fa-angle-double-right"></i></a>
+                </div>
+
+            </section>
+
+            <!-- SOCIAL-->
+            <section class="social">
+                <p>Siguenos</p>
+                <div class="links">
+                    <a href="#"> 
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#"> 
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#"> 
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </div>
+            </section>
+
+        </div>
+
+        <div class="footer-links">
+            <div class="footer-container">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <h3>Titulo uno</h3>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">Lorem, ipsum.</a>
+                    </li>
+                    <li>
+                        <a href="#">Lorem, ipsum.</a>
+                    </li>
+                    <li>
+                        <a href="#">Lorem, ipsum.</a>
+                    </li>
+                    <li>
+                        <a href="#">Lorem, ipsum.</a>
+                    </li>
+                    <li>
+                        <a href="#">Lorem, ipsum.</a>
+                    </li>
+                    <li>
+                        <a href="#">Lorem, ipsum.</a>
+                    </li>
+                </ul>
+
+                <ul>
+                    <li>
+                        <a href="#">
+                            <h3>Titulo dos</h3>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">Lorem, ipsum.</a>
+                    </li>
+                    <li>
+                        <a href="#">Lorem, ipsum.</a>
+                    </li>
+                    <li>
+                        <a href="#">Lorem, ipsum.</a>
+                    </li>
+                    <li>
+                        <a href="#">Lorem, ipsum.</a>
+                    </li>
+                    <li>
+                        <a href="#">Lorem, ipsum.</a>
+                    </li>
+                    <li>
+                        <a href="#">Lorem, ipsum.</a>
+                    </li>
+                </ul>
+
+                <ul>
+                    <li>
+                        <a href="#">
+                            <h3>Titulo tres</h3>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">Lorem, ipsum.</a>
+                    </li>
+                    <li>
+                        <a href="#">Lorem, ipsum.</a>
+                    </li>
+                    <li>
+                        <a href="#">Lorem, ipsum.</a>
+                    </li>
+                    <li>
+                        <a href="#">Lorem, ipsum.</a>
+                    </li>
+                    <li>
+                        <a href="#">Lorem, ipsum.</a>
+                    </li>
+                    <li>
+                        <a href="#">Lorem, ipsum.</a>
+                    </li>
+                </ul>
+
+                <ul>
+                    <li>
+                        <a href="#">
+                            <h3>Titulo cuatro</h3>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">Lorem, ipsum.</a>
+                    </li>
+                    <li>
+                        <a href="#">Lorem, ipsum.</a>
+                    </li>
+                    <li>
+                        <a href="#">Lorem, ipsum.</a>
+                    </li>
+                    <li>
+                        <a href="#">Lorem, ipsum.</a>
+                    </li>
+                    <li>
+                        <a href="#">Lorem, ipsum.</a>
+                    </li>
+                    <li>
+                        <a href="#">Lorem, ipsum.</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+     
     </body>
 
-        <aside>
-            
-        </aside>
-
-    <footer>
-
+    <footer class="footer">
+        <h3>Club de Fans COPYRIGHT</h3>
     </footer>
 
 </html>
